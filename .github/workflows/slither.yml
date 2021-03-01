@@ -3,11 +3,7 @@ name: slither
 on:
   push:
     paths:
-      - 'contracts/**' 
-  pull_request:
-    branches: [ master ]
-    paths:
-      - 'contracts/**' 
+      - '**.sol'
 
 jobs:
   slither:
