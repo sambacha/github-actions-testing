@@ -2,7 +2,6 @@
 name: slither
 on:
   push:
-    branches: [ master ]
     paths:
       - 'contracts/**' 
   pull_request:
